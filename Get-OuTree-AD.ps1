@@ -34,4 +34,4 @@ if (Test-Path $outputFilePath) {
 }
 
 # ルートOUから開始してTree構造をファイルに出力
-Show-OuTree -ParentDistinguishedName "DC=kbr1009,DC=local" -OutputFile $outputFilePath
+Show-OuTree -ParentDistinguishedName "DC=xxxx,DC=xxx" -OutputFile $outputFilePath
